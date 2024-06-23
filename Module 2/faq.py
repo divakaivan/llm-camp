@@ -39,7 +39,6 @@ def elastic_search(query, index_name = "course-questions"):
     
     return result_docs
 
-
 def build_prompt(query, search_results):
     prompt_template = """
 You're a course teaching assistant. Answer the QUESTION based on the CONTEXT from the FAQ database.
